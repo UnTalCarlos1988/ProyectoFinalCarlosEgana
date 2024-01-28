@@ -16,8 +16,8 @@ const ItemDetail = ({item}) => {
   return (
     <div className>
      <div className='col-md-4 offset-md-4'>
-        <img src={item.imagen} className='img-fluid'alt={item.nombre}/>
-        <h2>{item.nombre}</h2>
+        <img src={item.imagen} className='img-fluid'alt={item.title}/>
+        <h2>{item.title}</h2>
         <p>{item.descripcion}</p>
         <p> $ {item.precio}</p>
         <p> Cantidad: {item.stock}</p>
